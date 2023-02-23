@@ -1,0 +1,55 @@
+body{
+    background-image: url(img.jpg);
+     background-size:150%;
+     background-repeat: no-repeat;
+    /* object-fit:contain; */
+    font-size: 18px;
+    background-attachment: fixed;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container{
+    margin-left: 50%;
+    padding: 20px 100px;
+}
+div{
+    background-color: #e3f6ffc9;
+    border-radius: 20px;
+}
+.heading{
+    text-align: center;
+    margin-bottom: 0;
+}
+fieldset{
+    border-radius: 10px;
+}
+hr{
+    border-style: none;
+    border-bottom-style: dotted;
+    width: 40%;
+    border-width: 10px;
+
+}
+.info{
+    margin: 25px 0;
+}
+input[type="text"], input[type="email"], input[type="number"], textarea, input[type="button"], select, input[type="date"]{
+    padding: 15px 0px;
+    border-radius: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+input[type="date"], fieldset, select{
+    width: 100%;
+    text-indent: 10px;
+}
+fieldset p{
+    margin-left: 1%;
+}
+fieldset{
+    width:95%;
+}
+.button:hover{
+    background-color: rgb(228, 232, 14);
+
+
+}
